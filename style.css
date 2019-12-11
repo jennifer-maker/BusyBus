@@ -65,7 +65,7 @@ body {
   color: #0259a9 ;
   font-size: 10px;
   display: inline-block;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 .container {
   margin: 10px auto;
@@ -86,7 +86,7 @@ h1 {
   font-size: 16px;
   font-weight: bold;
   margin: 10px;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
   color:#0259a9;
   }
   h3 {
@@ -110,7 +110,6 @@ h5 {
   float: left;
   width: 375px;
   border-bottom: 1px solid lightgrey;
-
 }
 .busroute-number {
   color: white;
@@ -121,8 +120,8 @@ h5 {
   width: 15%;
   position: relative;
   top:-15px;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin-left: 12px;
+  margin-top: 30px;
 
 }
 .busroute-name {
@@ -132,6 +131,7 @@ h5 {
 }
 .busroute-number-one {
   background-color:rgba(45, 170, 118);
+
 }
 .busroute-number-two {
   background: rgba(194, 14, 111, 0.6);
