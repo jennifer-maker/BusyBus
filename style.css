@@ -12,13 +12,13 @@ body {
   float: left;
   width: .005%;
   font-size: 12px;
-  color: #067AFF;
+  color: #0259a9;
   transform: rotate(180deg);
   margin-left: 5px;
 }
 .BusyBus {
   float: left;
-  color:#067AFF;
+  color:#0259a9;
   font-weight: lighter;
   font-size: 16px;
   width:.3%;
@@ -62,7 +62,7 @@ body {
 .arrow {
   float: right;
   width: 10%;
-  color: #C3C3C5;
+  color: #0259a9 ;
   font-size: 10px;
   display: inline-block;
   padding-top: 30px;
@@ -85,7 +85,7 @@ nav {
 h1 {
   font-size: 16px;
   font-weight: bold;
-  margin: 5px;
+  margin: 10px;
   margin-bottom: 7px;
   color:#0259a9;
   }
@@ -94,8 +94,8 @@ h1 {
     font-weight: normal;
   }
 h4 {
-  text-transform: uppercase;
-  color:limegreen;
+  text-transform:inherit;
+  color: #e77e43;
   width: 50%;
 }
 h5 {
@@ -131,20 +131,19 @@ h5 {
   padding-left:50px;
 }
 .busroute-number-one {
-  background-color:rgba(86, 204, 242, 0.6);
-
+  background-color:rgba(45, 170, 118);
 }
 .busroute-number-two {
   background: rgba(194, 14, 111, 0.6);
 }
 .busroute-number-three {
-  background: rgba(234, 7, 254, 0.5);
+  background: rgba(117, 73, 190);
 }
 .busroute-number-four {
-  background: rgba(14, 232, 153, 0.5);
+  background: rgba(171, 164, 177);
 }
 .busroute-number-five {
-  background: rgba(182, 87, 227, 0.6);
+  background: rgba(169, 37, 37);
 }
 .busnames {
   font-weight: 600;
