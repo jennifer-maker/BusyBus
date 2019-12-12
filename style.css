@@ -89,7 +89,7 @@ h1 {
   margin-bottom: 10px;
   color:#0259a9;
   }
-  h3 {
+h3 {
     font-size: 14px;
     font-weight: normal;
   }
@@ -120,10 +120,20 @@ h5 {
   position: relative
   top:-20px;
   margin-left: 12px;
-  margin-top: 30px;
   width: 50px;
   height: 26.5px;
 }
+.myClass {
+ align-items: center;
+ display: flex !important;
+ justify-content: center;
+}
+.myNewClass {
+align-items: center;
+display: flex !important;
+padding: 10px 0;
+}
+
 .busroute-name {
   display: inline-block;
   width: 70%;
