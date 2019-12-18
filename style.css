@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: slategrey;
+  background-color: #6b6b6b;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
 
@@ -12,20 +12,20 @@ body {
   font-size: 12px;
   width: 21.2px;
   height: 21.2px;
-  color: #0259a9 ;
+  color: #0259A9;
   transform: rotate(180deg);
   margin-left: -10px;
 }
 .BusyBus {
   float: left;
-  color:#0259a9;
-  font-weight: lighter;
+  color:#0259A9;
+  font-weight: 300;
   font-size: 16px;
-  width:.3%;
+  width:10%;
   margin-left: 4px;
 }
 .location {
-  background-color: #FFFFFF;
+  background-color: white;
   height: auto;
   overflow: auto;
   margin:0px;
@@ -49,9 +49,9 @@ body {
   margin-top: -10px
 }
 .searchbar {
-  background-color:#FFFFFF;
+  background-color:#fafafa;
   padding: 15px;
-  border-bottom: 1px solid lightgrey;
+  border: none;
 }
 .center {
   display: block;
@@ -63,10 +63,10 @@ body {
   float: right;
   width: 21.2px;
   height: 21.2px;
-  color: #0259a9 ;
+color: #0259A9;
   font-size: 10px;
   display: inline-block;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .container {
   margin: 10px auto;
@@ -76,7 +76,7 @@ body {
 nav {
   position:relative;
   font-style: sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 16px;
   text-align: center;
   background-color: #EDEDEE;
@@ -85,34 +85,35 @@ nav {
 }
 h1 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 300;
   margin: 10px;
   margin-bottom: 10px;
-  color:#0259a9;
+  color: #0259A9;
   }
 h3 {
     font-size: 14px;
-    font-weight: normal;
+    font-weight: 300;
   }
 h4 {
   text-transform:inherit;
-
-    color: rgba(2, 89, 169);
+  color: #0259A9;
   width: 100%;
   padding-top: 10px;
+  font-weight: 300;
 }
 h5 {
-  text-transform:full-width;
-  color:#0259a9;
+  color:#d1a400;
   font-size:11px;
+  font-weight: 300;
   width: 90%;
     padding-top: 10px;
 }
 h6 {
   text-transform:inherit;
-color: rgba(233, 49, 49);
+color: #d1002d;
   width: 100%;
   padding-top: 10px;
+  font-weight: 300;
 }
 
 .bus-route {
@@ -148,20 +149,9 @@ padding: 10px 0;
   width: 70%;
   padding-left:50px;
 }
-.busroute-number-one {
-  background-color:rgba(2, 89, 169);
-}
-.busroute-number-two {
-  background: rgba(45, 170, 118);
-}
-.busroute-number-three {
-  background: rgba(169, 37, 37);
-}
-.busroute-number-four {
-  background: rgba(231, 126, 67);
-}
-.busroute-number-five {
-  background: rgba(117, 73, 190);
+.busroute-number {
+  background-color:#8a8a8a;
+
 }
 .busnames {
   font-weight: 600;
