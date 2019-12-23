@@ -5,7 +5,7 @@ body {
   background-color: #b5b5b5;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
-
+font-weight: bold;
 }
 .arrow-left {
   float: left;
@@ -16,10 +16,9 @@ body {
   transform: rotate(180deg);
   margin-left: -10px;
 }
-.BusyBus {
+.busybus {
   float: left;
   color: #0259A9;
-  font-weight: 300;
   font-size: 16px;
   width: 10%;
   margin-left: 4px;
@@ -42,7 +41,7 @@ body {
   width: 94%;
   float: left;
 }
-.Userpic {
+.userpic {
   float: right;
   width: 10%;
   margin-right: 2px;
@@ -63,7 +62,7 @@ body {
   float: right;
   width: 21.2px;
   height: 21.2px;
-color: #0259A9;
+  color: #0259A9;
   font-size: 10px;
   display: inline-block;
   padding-top: 5px;
@@ -73,10 +72,10 @@ color: #0259A9;
   margin-top: 70px;
   width: 375px;
 }
+
 nav {
   position: relative;
   font-style: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   text-align: center;
   background-color: #EDEDEE;
@@ -85,35 +84,31 @@ nav {
 }
 h1 {
   font-size: 16px;
-  font-weight: 300;
   margin: 10px;
   margin-bottom: 10px;
   color: #0259A9;
   }
 h3 {
     font-size: 14px;
-    font-weight: 300;
   }
 h4 {
   text-transform: inherit;
   color: #0259A9;
   width: 100%;
   padding-top: 10px;
-  font-weight: 300;
+
 }
 h5 {
-  color: #d1a400;
+  color: #8a8a8a;
   font-size: 11px;
-  font-weight: 300;
   width: 90%;
     padding-top: 10px;
 }
 h6 {
   text-transform: inherit;
-color: #d1002d;
+  color: #439921;
   width: 100%;
   padding-top: 10px;
-  font-weight: 300;
 }
 
 .bus-route {
@@ -122,6 +117,7 @@ color: #d1002d;
   width: 375px;
   border-bottom: 1px solid lightgrey;
 }
+
 .busroute-number {
   color: white;
   border-radius: 4px;
@@ -133,17 +129,16 @@ color: #d1002d;
   width: 50px;
   height: 26.5px;
 }
-.myClass {
+.myclass {
  align-items: center;
  display: flex !important;
  justify-content: center;
 }
-.myNewClass {
+.mynewclass {
 align-items: center;
 display: flex !important;
 padding: 10px 0;
 }
-
 .busroute-name {
   display: inline-block;
   width: 70%;
@@ -151,10 +146,12 @@ padding: 10px 0;
 }
 .busroute-number {
   background-color: #8a8a8a;
-
+}
+.newest {
+  color: #8a8a8a;
 }
 .busnames {
-  font-weight: 600;
+
   padding-left: 20px;
 }
 input {
